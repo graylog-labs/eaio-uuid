@@ -29,6 +29,8 @@ git push
 Make sure you have a working GPG setup to sign the artifacts and that you have
 valid sonatype credentials for the `ossrh` serverId in your `~/.m2/settings.xml`.
 
+See [Sonatype Maven documentation](https://central.sonatype.org/pages/apache-maven.html) for details.
+
 ## License
 
 MIT - See [copying.txt](copying.txt) for details.
