@@ -15,7 +15,7 @@
 
     <groupId>org.graylog2.repackaged</groupId>
     <artifactId>uuid</artifactId>
-    <version>3.2.1</version>
+    <version>3.2.2-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
     <name>UUID</name>
