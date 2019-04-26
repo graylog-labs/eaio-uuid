@@ -31,6 +31,15 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <id>graylog</id>
+            <name>Graylog, Inc.</name>
+            <organization>Graylog, Inc.</organization>
+            <organizationUrl>https://www.graylog.org/</organizationUrl>
+        </developer>
+    </developers>
+
     <scm>
         <connection>scm:git:git://github.com/graylog-labs/eaio-uuid.git</connection>
         <developerConnection>scm:git:git@github.com:graylog-labs/eaio-uuid.git</developerConnection>
