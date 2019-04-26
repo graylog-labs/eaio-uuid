@@ -7,12 +7,6 @@
         <maven>3.5.0</maven>
     </prerequisites>
 
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>9</version>
-    </parent>
-
     <groupId>org.graylog2.repackaged</groupId>
     <artifactId>uuid</artifactId>
     <version>3.2.2-SNAPSHOT</version>
