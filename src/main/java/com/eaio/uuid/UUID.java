@@ -27,14 +27,12 @@
  */
 package com.eaio.uuid;
 
+import com.eaio.util.lang.Hex;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-
-import org.omg.CORBA.portable.IDLEntity;
-
-import com.eaio.util.lang.Hex;
 
 /**
  * Creates UUIDs according to the DCE Universal Token Identifier specification.
@@ -54,8 +52,7 @@ import com.eaio.util.lang.Hex;
  * @author <a href="mailto:jb@eaio.de">Johann Burkard</a>
  * @version $Id: UUID.java 1888 2009-03-15 12:43:24Z johann $
  */
-public class UUID implements Comparable<UUID>, Serializable, Cloneable,
-        IDLEntity {
+public class UUID implements Comparable<UUID>, Serializable, Cloneable {
 
     /**
      * Hasn't ever changed between versions.
